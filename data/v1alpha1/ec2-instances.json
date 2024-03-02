@@ -60,7 +60,7 @@
     "efa_supported": true
   },
   "dl1.24xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "Gaudi HL-205",
       "manufacturer": "Habana",
       "count": 8,
@@ -71,12 +71,18 @@
     "efa_supported": true
   },
   "dl2q.24xlarge": {
+    "accelerator_info": {
+      "name": "Qualcomm AI100",
+      "manufacturer": "Qualcomm",
+      "count": 8,
+      "memory_size_in_mib": 16000
+    },
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "g3.16xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "M60",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -87,7 +93,7 @@
     "efa_supported": false
   },
   "g3.4xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "M60",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -98,7 +104,7 @@
     "efa_supported": false
   },
   "g3.8xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "M60",
       "manufacturer": "NVIDIA",
       "count": 2,
@@ -109,7 +115,7 @@
     "efa_supported": false
   },
   "g3s.xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "M60",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -120,7 +126,7 @@
     "efa_supported": false
   },
   "g4ad.16xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 4,
@@ -131,7 +137,7 @@
     "efa_supported": false
   },
   "g4ad.2xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 1,
@@ -142,7 +148,7 @@
     "efa_supported": false
   },
   "g4ad.4xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 1,
@@ -153,7 +159,7 @@
     "efa_supported": false
   },
   "g4ad.8xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 2,
@@ -164,7 +170,7 @@
     "efa_supported": false
   },
   "g4ad.xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 1,
@@ -175,7 +181,7 @@
     "efa_supported": false
   },
   "g4dn.12xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -186,7 +192,7 @@
     "efa_supported": true
   },
   "g4dn.16xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -197,7 +203,7 @@
     "efa_supported": true
   },
   "g4dn.2xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -208,7 +214,7 @@
     "efa_supported": false
   },
   "g4dn.4xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -219,7 +225,7 @@
     "efa_supported": false
   },
   "g4dn.8xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -230,7 +236,7 @@
     "efa_supported": true
   },
   "g4dn.xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -241,7 +247,7 @@
     "efa_supported": false
   },
   "g5.12xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -252,7 +258,7 @@
     "efa_supported": true
   },
   "g5.16xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -263,7 +269,7 @@
     "efa_supported": true
   },
   "g5.24xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -274,7 +280,7 @@
     "efa_supported": true
   },
   "g5.2xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -285,7 +291,7 @@
     "efa_supported": false
   },
   "g5.48xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -296,7 +302,7 @@
     "efa_supported": true
   },
   "g5.4xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -307,7 +313,7 @@
     "efa_supported": false
   },
   "g5.8xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -318,7 +324,7 @@
     "efa_supported": true
   },
   "g5.xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -329,7 +335,7 @@
     "efa_supported": false
   },
   "g5g.16xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 2,
@@ -340,7 +346,7 @@
     "efa_supported": false
   },
   "g5g.2xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -351,7 +357,7 @@
     "efa_supported": false
   },
   "g5g.4xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -362,7 +368,7 @@
     "efa_supported": false
   },
   "g5g.8xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -373,7 +379,7 @@
     "efa_supported": false
   },
   "g5g.xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -424,9 +430,92 @@
     "efa_supported": true
   },
   "inf1.24xlarge": {
+    "accelerator_info": {
+      "name": "Inferentia",
+      "manufacturer": "AWS",
+      "count": 16,
+      "memory_size_in_mib": 8192
+    },
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
+  },
+  "inf1.2xlarge": {
+    "accelerator_info": {
+      "name": "Inferentia",
+      "manufacturer": "AWS",
+      "count": 1,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "inf1.6xlarge": {
+    "accelerator_info": {
+      "name": "Inferentia",
+      "manufacturer": "AWS",
+      "count": 4,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "inf1.xlarge": {
+    "accelerator_info": {
+      "name": "Inferentia",
+      "manufacturer": "AWS",
+      "count": 1,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "inf2.24xlarge": {
+    "accelerator_info": {
+      "name": "Inferentia",
+      "manufacturer": "AWS",
+      "count": 6,
+      "memory_size_in_mib": 32768
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "inf2.48xlarge": {
+    "accelerator_info": {
+      "name": "Inferentia",
+      "manufacturer": "AWS",
+      "count": 12,
+      "memory_size_in_mib": 32768
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "inf2.8xlarge": {
+    "accelerator_info": {
+      "name": "Inferentia",
+      "manufacturer": "AWS",
+      "count": 1,
+      "memory_size_in_mib": 32768
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "inf2.xlarge": {
+    "accelerator_info": {
+      "name": "Inferentia",
+      "manufacturer": "AWS",
+      "count": 1,
+      "memory_size_in_mib": 32768
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
   },
   "m5dn.24xlarge": {
     "instance_storage_supported": true,
@@ -489,7 +578,7 @@
     "efa_supported": true
   },
   "p2.16xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "K80",
       "manufacturer": "NVIDIA",
       "count": 16,
@@ -500,7 +589,7 @@
     "efa_supported": false
   },
   "p2.8xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "K80",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -511,7 +600,7 @@
     "efa_supported": false
   },
   "p2.xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "K80",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -522,7 +611,7 @@
     "efa_supported": false
   },
   "p3.16xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "V100",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -533,7 +622,7 @@
     "efa_supported": false
   },
   "p3.2xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "V100",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -544,7 +633,7 @@
     "efa_supported": false
   },
   "p3.8xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "V100",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -555,7 +644,7 @@
     "efa_supported": false
   },
   "p3dn.24xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "V100",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -566,7 +655,7 @@
     "efa_supported": true
   },
   "p4d.24xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "A100",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -577,7 +666,7 @@
     "efa_supported": true
   },
   "p5.48xlarge": {
-    "gpu_info": {
+    "accelerator_info": {
       "name": "H100",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -648,8 +737,8 @@
     "efa_supported": true
   },
   "trn1.32xlarge": {
-    "gpu_info": {
-      "name": "Trainium-v1",
+    "accelerator_info": {
+      "name": "Trainium",
       "manufacturer": "AWS",
       "count": 16,
       "memory_size_in_mib": 32768
@@ -659,8 +748,8 @@
     "efa_supported": true
   },
   "trn1n.32xlarge": {
-    "gpu_info": {
-      "name": "Trainium-v1",
+    "accelerator_info": {
+      "name": "Trainium",
       "manufacturer": "AWS",
       "count": 16,
       "memory_size_in_mib": 32768
