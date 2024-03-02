@@ -1,0 +1,692 @@
+{
+  "c5n.18xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c5n.9xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c6a.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c6gn.16xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c6i.32xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c6id.32xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c6in.32xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 2,
+    "efa_supported": true
+  },
+  "c7a.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c7g.16xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c7gd.16xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c7gn.16xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "c7i.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "dl1.24xlarge": {
+    "gpu_info": {
+      "name": "Gaudi HL-205",
+      "manufacturer": "Habana",
+      "count": 8,
+      "memory_size_in_mib": 32768
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 4,
+    "efa_supported": true
+  },
+  "dl2q.24xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g3.16xlarge": {
+    "gpu_info": {
+      "name": "M60",
+      "manufacturer": "NVIDIA",
+      "count": 4,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g3.4xlarge": {
+    "gpu_info": {
+      "name": "M60",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g3.8xlarge": {
+    "gpu_info": {
+      "name": "M60",
+      "manufacturer": "NVIDIA",
+      "count": 2,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g3s.xlarge": {
+    "gpu_info": {
+      "name": "M60",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g4ad.16xlarge": {
+    "gpu_info": {
+      "name": "Radeon Pro V520",
+      "manufacturer": "AMD",
+      "count": 4,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g4ad.2xlarge": {
+    "gpu_info": {
+      "name": "Radeon Pro V520",
+      "manufacturer": "AMD",
+      "count": 1,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g4ad.4xlarge": {
+    "gpu_info": {
+      "name": "Radeon Pro V520",
+      "manufacturer": "AMD",
+      "count": 1,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g4ad.8xlarge": {
+    "gpu_info": {
+      "name": "Radeon Pro V520",
+      "manufacturer": "AMD",
+      "count": 2,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g4ad.xlarge": {
+    "gpu_info": {
+      "name": "Radeon Pro V520",
+      "manufacturer": "AMD",
+      "count": 1,
+      "memory_size_in_mib": 8192
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g4dn.12xlarge": {
+    "gpu_info": {
+      "name": "T4",
+      "manufacturer": "NVIDIA",
+      "count": 4,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g4dn.16xlarge": {
+    "gpu_info": {
+      "name": "T4",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g4dn.2xlarge": {
+    "gpu_info": {
+      "name": "T4",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g4dn.4xlarge": {
+    "gpu_info": {
+      "name": "T4",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g4dn.8xlarge": {
+    "gpu_info": {
+      "name": "T4",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g4dn.xlarge": {
+    "gpu_info": {
+      "name": "T4",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g5.12xlarge": {
+    "gpu_info": {
+      "name": "A10G",
+      "manufacturer": "NVIDIA",
+      "count": 4,
+      "memory_size_in_mib": 24576
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g5.16xlarge": {
+    "gpu_info": {
+      "name": "A10G",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 24576
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g5.24xlarge": {
+    "gpu_info": {
+      "name": "A10G",
+      "manufacturer": "NVIDIA",
+      "count": 4,
+      "memory_size_in_mib": 24576
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g5.2xlarge": {
+    "gpu_info": {
+      "name": "A10G",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 24576
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g5.48xlarge": {
+    "gpu_info": {
+      "name": "A10G",
+      "manufacturer": "NVIDIA",
+      "count": 8,
+      "memory_size_in_mib": 24576
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g5.4xlarge": {
+    "gpu_info": {
+      "name": "A10G",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 24576
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g5.8xlarge": {
+    "gpu_info": {
+      "name": "A10G",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 24576
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "g5.xlarge": {
+    "gpu_info": {
+      "name": "A10G",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 24576
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g5g.16xlarge": {
+    "gpu_info": {
+      "name": "T4g",
+      "manufacturer": "NVIDIA",
+      "count": 2,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g5g.2xlarge": {
+    "gpu_info": {
+      "name": "T4g",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g5g.4xlarge": {
+    "gpu_info": {
+      "name": "T4g",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g5g.8xlarge": {
+    "gpu_info": {
+      "name": "T4g",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "g5g.xlarge": {
+    "gpu_info": {
+      "name": "T4g",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "hpc7g.16xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "hpc7g.4xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "hpc7g.8xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "i3en.12xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "i3en.24xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "i4g.16xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "i4i.32xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "im4gn.16xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "inf1.24xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m5dn.24xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m5n.24xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m5zn.12xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m6a.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m6i.32xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m6id.32xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m6idn.32xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 2,
+    "efa_supported": true
+  },
+  "m6in.32xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 2,
+    "efa_supported": true
+  },
+  "m7a.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m7g.16xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m7gd.16xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "m7i.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "p2.16xlarge": {
+    "gpu_info": {
+      "name": "K80",
+      "manufacturer": "NVIDIA",
+      "count": 16,
+      "memory_size_in_mib": 12288
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "p2.8xlarge": {
+    "gpu_info": {
+      "name": "K80",
+      "manufacturer": "NVIDIA",
+      "count": 8,
+      "memory_size_in_mib": 12288
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "p2.xlarge": {
+    "gpu_info": {
+      "name": "K80",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 12288
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "p3.16xlarge": {
+    "gpu_info": {
+      "name": "V100",
+      "manufacturer": "NVIDIA",
+      "count": 8,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "p3.2xlarge": {
+    "gpu_info": {
+      "name": "V100",
+      "manufacturer": "NVIDIA",
+      "count": 1,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "p3.8xlarge": {
+    "gpu_info": {
+      "name": "V100",
+      "manufacturer": "NVIDIA",
+      "count": 4,
+      "memory_size_in_mib": 16384
+    },
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": false
+  },
+  "p3dn.24xlarge": {
+    "gpu_info": {
+      "name": "V100",
+      "manufacturer": "NVIDIA",
+      "count": 8,
+      "memory_size_in_mib": 32768
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "p4d.24xlarge": {
+    "gpu_info": {
+      "name": "A100",
+      "manufacturer": "NVIDIA",
+      "count": 8,
+      "memory_size_in_mib": 40960
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 4,
+    "efa_supported": true
+  },
+  "p5.48xlarge": {
+    "gpu_info": {
+      "name": "H100",
+      "manufacturer": "NVIDIA",
+      "count": 8,
+      "memory_size_in_mib": 81920
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 32,
+    "efa_supported": true
+  },
+  "r5dn.24xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r5n.24xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r6a.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r6i.32xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r6id.32xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r6idn.32xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 2,
+    "efa_supported": true
+  },
+  "r6in.32xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 2,
+    "efa_supported": true
+  },
+  "r7a.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r7g.16xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r7gd.16xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r7i.48xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "r7iz.32xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "trn1.32xlarge": {
+    "gpu_info": {
+      "name": "Trainium-v1",
+      "manufacturer": "AWS",
+      "count": 16,
+      "memory_size_in_mib": 32768
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 8,
+    "efa_supported": true
+  },
+  "trn1n.32xlarge": {
+    "gpu_info": {
+      "name": "Trainium-v1",
+      "manufacturer": "AWS",
+      "count": 16,
+      "memory_size_in_mib": 32768
+    },
+    "instance_storage_supported": true,
+    "maximum_network_cards": 16,
+    "efa_supported": true
+  },
+  "vt1.24xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "x2idn.32xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "x2iedn.32xlarge": {
+    "instance_storage_supported": true,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  },
+  "x2iezn.12xlarge": {
+    "instance_storage_supported": false,
+    "maximum_network_cards": 1,
+    "efa_supported": true
+  }
+}
