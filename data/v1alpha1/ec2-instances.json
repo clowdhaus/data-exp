@@ -1,60 +1,72 @@
 {
   "c5n.18xlarge": {
+    "default_cores": 36,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c5n.9xlarge": {
+    "default_cores": 18,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c6a.48xlarge": {
+    "default_cores": 96,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c6gn.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c6i.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c6id.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c6in.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 2,
     "efa_supported": true
   },
   "c7a.48xlarge": {
+    "default_cores": 192,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c7g.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c7gd.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c7gn.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "c7i.48xlarge": {
+    "default_cores": 96,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -66,6 +78,7 @@
       "count": 8,
       "memory_size_in_mib": 32768
     },
+    "default_cores": 48,
     "instance_storage_supported": true,
     "maximum_network_cards": 4,
     "efa_supported": true
@@ -77,6 +90,7 @@
       "count": 8,
       "memory_size_in_mib": 16000
     },
+    "default_cores": 48,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -88,6 +102,7 @@
       "count": 4,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 32,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -99,6 +114,7 @@
       "count": 1,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 8,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -110,6 +126,7 @@
       "count": 2,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 16,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -121,6 +138,7 @@
       "count": 1,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 2,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -132,6 +150,7 @@
       "count": 4,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 32,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -143,6 +162,7 @@
       "count": 1,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 4,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -154,6 +174,7 @@
       "count": 1,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 8,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -165,6 +186,7 @@
       "count": 2,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 16,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -176,6 +198,7 @@
       "count": 1,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 2,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -187,6 +210,7 @@
       "count": 4,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 24,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -198,6 +222,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 32,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -209,6 +234,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 4,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -220,6 +246,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 8,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -231,6 +258,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 16,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -242,6 +270,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 2,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -253,6 +282,7 @@
       "count": 4,
       "memory_size_in_mib": 24576
     },
+    "default_cores": 24,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -264,6 +294,7 @@
       "count": 1,
       "memory_size_in_mib": 24576
     },
+    "default_cores": 32,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -275,6 +306,7 @@
       "count": 4,
       "memory_size_in_mib": 24576
     },
+    "default_cores": 48,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -286,6 +318,7 @@
       "count": 1,
       "memory_size_in_mib": 24576
     },
+    "default_cores": 4,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -297,6 +330,7 @@
       "count": 8,
       "memory_size_in_mib": 24576
     },
+    "default_cores": 96,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -308,6 +342,7 @@
       "count": 1,
       "memory_size_in_mib": 24576
     },
+    "default_cores": 8,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -319,6 +354,7 @@
       "count": 1,
       "memory_size_in_mib": 24576
     },
+    "default_cores": 16,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -330,6 +366,7 @@
       "count": 1,
       "memory_size_in_mib": 24576
     },
+    "default_cores": 2,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -341,6 +378,7 @@
       "count": 2,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -352,6 +390,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 8,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -363,6 +402,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 16,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -374,6 +414,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 32,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -385,46 +426,55 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 4,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
   },
   "hpc7g.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "hpc7g.4xlarge": {
+    "default_cores": 16,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "hpc7g.8xlarge": {
+    "default_cores": 32,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "i3en.12xlarge": {
+    "default_cores": 24,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "i3en.24xlarge": {
+    "default_cores": 48,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "i4g.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "i4i.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "im4gn.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -436,6 +486,7 @@
       "count": 16,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 48,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -447,6 +498,7 @@
       "count": 1,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 4,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -458,6 +510,7 @@
       "count": 4,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 12,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -469,6 +522,7 @@
       "count": 1,
       "memory_size_in_mib": 8192
     },
+    "default_cores": 2,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -480,6 +534,7 @@
       "count": 6,
       "memory_size_in_mib": 32768
     },
+    "default_cores": 48,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -491,6 +546,7 @@
       "count": 12,
       "memory_size_in_mib": 32768
     },
+    "default_cores": 96,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -502,6 +558,7 @@
       "count": 1,
       "memory_size_in_mib": 32768
     },
+    "default_cores": 16,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -513,66 +570,79 @@
       "count": 1,
       "memory_size_in_mib": 32768
     },
+    "default_cores": 2,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
   },
   "m5dn.24xlarge": {
+    "default_cores": 48,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m5n.24xlarge": {
+    "default_cores": 48,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m5zn.12xlarge": {
+    "default_cores": 24,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m6a.48xlarge": {
+    "default_cores": 96,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m6i.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m6id.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m6idn.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 2,
     "efa_supported": true
   },
   "m6in.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 2,
     "efa_supported": true
   },
   "m7a.48xlarge": {
+    "default_cores": 192,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m7g.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m7gd.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "m7i.48xlarge": {
+    "default_cores": 96,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -584,6 +654,7 @@
       "count": 16,
       "memory_size_in_mib": 12288
     },
+    "default_cores": 32,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -595,6 +666,7 @@
       "count": 8,
       "memory_size_in_mib": 12288
     },
+    "default_cores": 16,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -606,6 +678,7 @@
       "count": 1,
       "memory_size_in_mib": 12288
     },
+    "default_cores": 2,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -617,6 +690,7 @@
       "count": 8,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 32,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -628,6 +702,7 @@
       "count": 1,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 4,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -639,6 +714,7 @@
       "count": 4,
       "memory_size_in_mib": 16384
     },
+    "default_cores": 16,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": false
@@ -650,6 +726,7 @@
       "count": 8,
       "memory_size_in_mib": 32768
     },
+    "default_cores": 48,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -661,6 +738,7 @@
       "count": 8,
       "memory_size_in_mib": 40960
     },
+    "default_cores": 48,
     "instance_storage_supported": true,
     "maximum_network_cards": 4,
     "efa_supported": true
@@ -672,66 +750,79 @@
       "count": 8,
       "memory_size_in_mib": 81920
     },
+    "default_cores": 96,
     "instance_storage_supported": true,
     "maximum_network_cards": 32,
     "efa_supported": true
   },
   "r5dn.24xlarge": {
+    "default_cores": 48,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r5n.24xlarge": {
+    "default_cores": 48,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r6a.48xlarge": {
+    "default_cores": 96,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r6i.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r6id.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r6idn.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 2,
     "efa_supported": true
   },
   "r6in.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 2,
     "efa_supported": true
   },
   "r7a.48xlarge": {
+    "default_cores": 192,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r7g.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r7gd.16xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r7i.48xlarge": {
+    "default_cores": 96,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "r7iz.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
@@ -743,6 +834,7 @@
       "count": 16,
       "memory_size_in_mib": 32768
     },
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 8,
     "efa_supported": true
@@ -754,26 +846,31 @@
       "count": 16,
       "memory_size_in_mib": 32768
     },
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 16,
     "efa_supported": true
   },
   "vt1.24xlarge": {
+    "default_cores": 48,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "x2idn.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "x2iedn.32xlarge": {
+    "default_cores": 64,
     "instance_storage_supported": true,
     "maximum_network_cards": 1,
     "efa_supported": true
   },
   "x2iezn.12xlarge": {
+    "default_cores": 24,
     "instance_storage_supported": false,
     "maximum_network_cards": 1,
     "efa_supported": true
