@@ -1,0 +1,46 @@
+{
+    "platform": {
+        "cuda": {
+            "version": "12.4",
+            "components": {
+                "pytorch": {
+                    "package": "pytorch",
+                    "version": "2.2.2"
+                },
+                "tensorflow": {
+                    "package": "tensorflow",
+                    "version": "2.2.2"
+                }
+            },
+            "envVars": {
+                "PATH": "/usr/local/nvidia/bin:/usr/local/cuda/bin:${PATH}",
+                "LD_LIBRARY_PATH": "/usr/local/nvidia/lib:/usr/local/nvidia/lib64:${LD_LIBRARY_PATH}",
+                "NVIDIA_VISIBLE_DEVICES": "all",
+                "NVIDIA_DRIVER_CAPABILITIES": "compute,utility"
+            }
+        },
+        "neuron": {
+            "version": "2.17",
+            "components": {
+                "pytorch": {
+                    "package": "torch-neuronx",
+                    "version": "1.13.1.1.9.1"
+                },
+                "tensorflow": {
+                    "package": "tensorflow-neuronx",
+                    "version": "2.10.1.1.0.0"
+                }
+            },
+            "envVars": {
+                "PATH": "/opt/aws/neuron/bin:${PATH}",
+                "LD_LIBRARY_PATH": "/opt/aws/neuron/lib:${LD_LIBRARY_PATH}"
+            }
+        }
+    },
+    "efa": {
+        "version": "1.31.0"
+    },
+    "openmpi": {
+        "version": "5.0.2"
+    }
+}
