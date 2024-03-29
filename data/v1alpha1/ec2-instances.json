@@ -1,6 +1,6 @@
 {
   "dl1.24xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Gaudi HL-205",
       "manufacturer": "Habana",
       "count": 8,
@@ -11,7 +11,7 @@
     "efa_supported": true
   },
   "dl2q.24xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Qualcomm AI100",
       "manufacturer": "Qualcomm",
       "count": 8,
@@ -22,7 +22,7 @@
     "efa_supported": true
   },
   "g3.16xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "M60",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -35,7 +35,7 @@
     "efa_supported": false
   },
   "g3.4xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "M60",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -48,7 +48,7 @@
     "efa_supported": false
   },
   "g3.8xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "M60",
       "manufacturer": "NVIDIA",
       "count": 2,
@@ -61,7 +61,7 @@
     "efa_supported": false
   },
   "g3s.xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "M60",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -74,7 +74,7 @@
     "efa_supported": false
   },
   "g4ad.16xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 4,
@@ -85,7 +85,7 @@
     "efa_supported": false
   },
   "g4ad.2xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 1,
@@ -96,7 +96,7 @@
     "efa_supported": false
   },
   "g4ad.4xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 1,
@@ -107,7 +107,7 @@
     "efa_supported": false
   },
   "g4ad.8xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 2,
@@ -118,7 +118,7 @@
     "efa_supported": false
   },
   "g4ad.xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Radeon Pro V520",
       "manufacturer": "AMD",
       "count": 1,
@@ -129,7 +129,7 @@
     "efa_supported": false
   },
   "g4dn.12xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -142,7 +142,7 @@
     "efa_supported": true
   },
   "g4dn.16xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -155,7 +155,7 @@
     "efa_supported": true
   },
   "g4dn.2xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -168,7 +168,7 @@
     "efa_supported": false
   },
   "g4dn.4xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -181,7 +181,7 @@
     "efa_supported": false
   },
   "g4dn.8xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -194,7 +194,7 @@
     "efa_supported": true
   },
   "g4dn.xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -207,7 +207,7 @@
     "efa_supported": false
   },
   "g5.12xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -220,7 +220,7 @@
     "efa_supported": true
   },
   "g5.16xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -233,7 +233,7 @@
     "efa_supported": true
   },
   "g5.24xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -246,7 +246,7 @@
     "efa_supported": true
   },
   "g5.2xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -259,7 +259,7 @@
     "efa_supported": false
   },
   "g5.48xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -272,7 +272,7 @@
     "efa_supported": true
   },
   "g5.4xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -285,7 +285,7 @@
     "efa_supported": false
   },
   "g5.8xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -298,7 +298,7 @@
     "efa_supported": true
   },
   "g5.xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A10G",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -311,7 +311,7 @@
     "efa_supported": false
   },
   "g5g.16xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 2,
@@ -324,7 +324,7 @@
     "efa_supported": false
   },
   "g5g.2xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -337,7 +337,7 @@
     "efa_supported": false
   },
   "g5g.4xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -350,7 +350,7 @@
     "efa_supported": false
   },
   "g5g.8xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -363,7 +363,7 @@
     "efa_supported": false
   },
   "g5g.xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "T4g",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -376,7 +376,7 @@
     "efa_supported": false
   },
   "inf1.24xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Inferentia",
       "manufacturer": "AWS",
       "count": 16,
@@ -387,7 +387,7 @@
     "efa_supported": true
   },
   "inf1.2xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Inferentia",
       "manufacturer": "AWS",
       "count": 1,
@@ -398,7 +398,7 @@
     "efa_supported": false
   },
   "inf1.6xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Inferentia",
       "manufacturer": "AWS",
       "count": 4,
@@ -409,7 +409,7 @@
     "efa_supported": false
   },
   "inf1.xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Inferentia",
       "manufacturer": "AWS",
       "count": 1,
@@ -420,7 +420,7 @@
     "efa_supported": false
   },
   "inf2.24xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Inferentia2",
       "manufacturer": "AWS",
       "count": 6,
@@ -431,7 +431,7 @@
     "efa_supported": false
   },
   "inf2.48xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Inferentia2",
       "manufacturer": "AWS",
       "count": 12,
@@ -442,7 +442,7 @@
     "efa_supported": false
   },
   "inf2.8xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Inferentia2",
       "manufacturer": "AWS",
       "count": 1,
@@ -453,7 +453,7 @@
     "efa_supported": false
   },
   "inf2.xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Inferentia2",
       "manufacturer": "AWS",
       "count": 1,
@@ -464,7 +464,7 @@
     "efa_supported": false
   },
   "p2.16xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "K80",
       "manufacturer": "NVIDIA",
       "count": 16,
@@ -477,7 +477,7 @@
     "efa_supported": false
   },
   "p2.8xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "K80",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -490,7 +490,7 @@
     "efa_supported": false
   },
   "p2.xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "K80",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -503,7 +503,7 @@
     "efa_supported": false
   },
   "p3.16xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "V100",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -516,7 +516,7 @@
     "efa_supported": false
   },
   "p3.2xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "V100",
       "manufacturer": "NVIDIA",
       "count": 1,
@@ -529,7 +529,7 @@
     "efa_supported": false
   },
   "p3.8xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "V100",
       "manufacturer": "NVIDIA",
       "count": 4,
@@ -542,7 +542,7 @@
     "efa_supported": false
   },
   "p3dn.24xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "V100",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -555,7 +555,7 @@
     "efa_supported": true
   },
   "p4d.24xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "A100",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -568,7 +568,7 @@
     "efa_supported": true
   },
   "p5.48xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "H100",
       "manufacturer": "NVIDIA",
       "count": 8,
@@ -581,7 +581,7 @@
     "efa_supported": true
   },
   "trn1.2xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Trainium",
       "manufacturer": "AWS",
       "count": 1,
@@ -592,7 +592,7 @@
     "efa_supported": false
   },
   "trn1.32xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Trainium",
       "manufacturer": "AWS",
       "count": 16,
@@ -603,7 +603,7 @@
     "efa_supported": true
   },
   "trn1n.32xlarge": {
-    "accelerator_info": {
+    "accelerator": {
       "name": "Trainium",
       "manufacturer": "AWS",
       "count": 16,
